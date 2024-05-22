@@ -70,7 +70,7 @@ uint8_t ssd1306_Init(I2C_HandleTypeDef *hi2c)
     status += ssd1306_WriteCommand(hi2c, 0xAF);   // Turn on SSD1306 panel
 
     if (status != 0) {
-        return 1;
+        return 1; // 失敗
     }
 
     // Clear screen
