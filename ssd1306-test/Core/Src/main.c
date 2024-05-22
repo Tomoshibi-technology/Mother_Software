@@ -97,13 +97,13 @@ int main(void)
 	ssd1306_UpdateScreen(&hi2c1);
 
 	HAL_Delay(1000);
-
 	ssd1306_SetCursor(7,13);
 	ssd1306_WriteString("Tomoshibi",Font_11x18,Black);
 	ssd1306_SetCursor(12,33);
 	ssd1306_WriteString("Technology",Font_11x18,Black);
 
 	ssd1306_UpdateScreen(&hi2c1);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
