@@ -91,7 +91,7 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-  ssd1306_Init(&hi2c1);
+  	ssd1306_Init(&hi2c1);
 	HAL_Delay(1000);
 	ssd1306_Fill(White);
 	ssd1306_UpdateScreen(&hi2c1);
