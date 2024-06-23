@@ -27,26 +27,26 @@
 
 // I2c address
 #ifndef SSD1306_I2C_ADDR
-//#define SSD1306_I2C_ADDR        0x78
-#define SSD1306_I2C_ADDR 0x3C<<1
+	#define SSD1306_I2C_ADDR        0x78
+	//#define SSD1306_I2C_ADDR 0x3C<<1
 #endif // SSD1306_I2C_ADDR
 
 // SSD1306 width in pixels
 #ifndef SSD1306_WIDTH
-#define SSD1306_WIDTH           128
+	#define SSD1306_WIDTH           128
 #endif // SSD1306_WIDTH
 
 // SSD1306 LCD height in pixels
 #ifndef SSD1306_HEIGHT
-#define SSD1306_HEIGHT          64
+	#define SSD1306_HEIGHT          64
 #endif // SSD1306_HEIGHT
 
 #ifndef SSD1306_COM_LR_REMAP
-#define SSD1306_COM_LR_REMAP    0
+	#define SSD1306_COM_LR_REMAP    0
 #endif // SSD1306_COM_LR_REMAP
 
 #ifndef SSD1306_COM_ALTERNATIVE_PIN_CONFIG
-#define SSD1306_COM_ALTERNATIVE_PIN_CONFIG    1
+	#define SSD1306_COM_ALTERNATIVE_PIN_CONFIG    1
 #endif // SSD1306_COM_ALTERNATIVE_PIN_CONFIG
 
 
