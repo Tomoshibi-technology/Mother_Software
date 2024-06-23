@@ -65,7 +65,7 @@ typedef struct {
     uint16_t CurrentX;
     uint16_t CurrentY;
     uint8_t Inverted;
-    uint8_t Initialized;
+    uint8_t Initialized; //
 } SSD1306_t;
 
 //
