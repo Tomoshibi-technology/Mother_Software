@@ -1,6 +1,6 @@
 .DS_Store
 */Debug/*
-*/.settings
+*/.settings/
 
 .metadata
 bin/
