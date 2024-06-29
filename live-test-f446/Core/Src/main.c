@@ -22,7 +22,6 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-#include <app_main.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -38,7 +37,6 @@
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
 
-
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -46,6 +44,8 @@ I2C_HandleTypeDef hi2c1;
 
 /* USER CODE BEGIN PV */
 
+int16_t aa = 0;
+int16_t bb = 0;
 
 /* USER CODE END PV */
 
@@ -98,11 +98,15 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  app_main();
 
+  aa = 3;
+  bb = 4;
+  uint8_t a = 220;
 
   while (1)
   {
+	  aa++;
+	  bb++;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

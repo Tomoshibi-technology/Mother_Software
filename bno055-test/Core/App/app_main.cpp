@@ -7,13 +7,15 @@
 
 #include "app_main.h"
 
+uint8_t aa=10;
+uint8_t bb=30;
+
 
 void app_init();
 void app_update();
 
 void app_init(){
 	//初期化処理を書く
-
 }
 
 
