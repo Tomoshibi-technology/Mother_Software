@@ -7,7 +7,6 @@
 
 #include "app_main.h"
 
-
 void app_init();
 void app_update();
 
